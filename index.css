@@ -1,0 +1,134 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(200deg,skyblue,#eee,#ffc0cb);
+	overflow: hidden;
+}
+.box
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+    border:2px  solid linear-gradient(200deg,pink,skyblue,grey);
+    min-height: 420px;
+	background-color: #eee;
+	border-radius: 16px;
+	box-shadow:5px;
+}
+
+h2
+{
+	position: relative;
+	width: 230px;
+	bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 13px;
+	color: black;
+	background: linear-gradient(200deg,skyblue,#eee,#ffc0cb);
+}
+
+h3
+{
+	font-size: 15px;
+}
+
+h4
+{
+	font-size: 15px;
+}
+
+.input-box
+{
+	display: flex;
+	flex-direction: column;
+	top: 10px;
+	border-radius: 13px;
+	justify-content: center;
+	align-items: start;
+	margin-bottom: 10px;
+}
+
+.input-box > label
+{
+	margin-bottom: 5px;
+	color: black;
+	font-size: 13px;
+}
+
+.input-box >input
+{
+	box-sizing: border-box;
+	background: linear-gradient(skyblue,#ffc0cb,200deg);
+	font-size: 14px;
+	height: 35px;
+	width: 250px;
+	background:linear-gradient(200deg,skyblue,#eee);
+	border:1px solid whitesmoke;
+	border-radius: 5px;
+	transition: 0.2s;
+	outline: none;
+	padding: 0 10px;
+}
+
+.input-box>input:focus
+{
+	border:1px solid whitesmoke;
+}
+
+.input_sub
+{
+    position: relative;
+    top:35px;
+	width: 100px;
+	height: 20px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+
+}
+
+.input_sub:hover
+{
+	text-decoration: none;
+	background: linear-gradient(200deg,skyblue,#eee,#ffc0cb);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

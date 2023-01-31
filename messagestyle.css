@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: "Roboto",sans-serif;
+	margin-top: 50px;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(200deg,skyblue,#eee,#ffc0cb);
+	overflow: hidden;
+}
+
+
+#container{
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.3);
+	width: 80%;
+	padding: 0 auto;
+}
+#comment-box{
+	background-color: rgba(0, 0, 0, 0.3);
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 100%;
+	word-wrap: break-word;
+
+}
+h1{
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-bottom:15px ;
+	text-align: center;
+	color: black;
+}
+
+#name{
+
+	margin-left: 234px;
+	width: 20%;
+	height: 10px;
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 26px;
+	margin-bottom: 10px;
+
+}
+.header{
+	margin:45px 20px;
+	
+	font-size: 23px;
+	font-weight: 600;
+}
+textarea{
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 26px;
+	margin-bottom: 15px;
+	margin-left: 80px;
+	resize: none;
+	width: 71%;
+	height: 100px;
+
+}
+hr{
+	border: 0;
+	border-top: 1px solid black;
+	border-bottom: 1px solid #eee;
+}
+span.date{
+	float: right;
+	font-size: 12px;
+	font-weight: 300;
+	margin-right: 20px;
+}
+#btn-submit{
+	background-color: gray;
+	margin-left: 450px;
+	color: white;
+	font-size: 5px;
+	width: 10%;
+	height: 20px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+
+#btn-submit:hover{
+	color: black;
+	background: linear-gradient(200deg,skyblue,#eee,#ffc0cb);
+}
+#commentslist{
+	width: 70%;
+	font-size: 14px;
+	border-radius: 15px;
+	bottom: 10px;
+	margin-bottom: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

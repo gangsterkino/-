@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+	<title>login</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="box">
+		<h2>LOGIN</h2>
+		<table>Name</table> 
+		  <div class="input-box">
+			<input type="text" name ="name" class="name" required/>
+		  </div>
+<table>Password</table>
+		  <div class="input-box">
+			<input type="password" name="password" class="password" required/>
+		  </div>
+
+		     <div>
+			<input type="submit" class="input_sub" value="SIGN IN">
+		     </div>
+    </div>
+    <script >
+    	let name =document.querySelector('.name')
+    	let password =document.querySelector('.password')
+    	let input_sub =document.querySelector('.input_sub')
+
+    	input_sub.onclick = function () {
+    		let username =name.value
+    		let passwordtr =password.value
+    		if(passwordtr!="123456"){
+    			alert('密码错误')
+    		}
+    		else{
+
+    			localStorage.setItem('username',username)
+    			localStorage.setItem('passwordtr',passwordtr)
+    			window.location.href = 'messageborder.html'
+    			alert('成功登入！')
+    		}
+    	}
+name.value=localStorage.getItem('username')
+
+
+    </script>
+</body>
+</html>
